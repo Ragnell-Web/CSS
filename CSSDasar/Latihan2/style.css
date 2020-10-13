@@ -8,8 +8,13 @@ h1 {
     /* font variant mengubah huruf menjadi capslock tapi ukurannya kecil */
     font-style: italic;
     /* mengubah font menjadi italic */
+    /* beda italic dengan oblique adalah */
+    /* oblique dimiringkan oleh sistem jika font tidak punya font italicya */
 }
 
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
+
+    line-height: 30px;
+    /* jarak antar baris */
 }
