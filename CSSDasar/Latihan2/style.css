@@ -1,0 +1,15 @@
+h1 {
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    /* font size ukuran huruf */
+    font-weight: normal;
+    /* font weight mengubah huruf bold menjadi normal */
+    font-variant: small-caps;
+    /* font variant mengubah huruf menjadi capslock tapi ukurannya kecil */
+    font-style: italic;
+    /* mengubah font menjadi italic */
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
