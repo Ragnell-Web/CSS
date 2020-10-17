@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dimensi & Overflow</title>
+  <style>
+    div.satu{
+      width: 200px;
+      height: 200px;
+      /* Div itu display block jadi bisa diatur dimensinyaa */
+    }
+    div.dua{
+      width: 100%;
+      background-color: aqua;
+      height: 200px;
+      overflow: auto;
+
+      /* overflow: auto = jika auto maka isinya jika melebihi pembungkus maka isinya akan bisa dilihat dengan di scrool */
+    }
+  </style>
+</head>
+<body>
+  <div class="satu">
+    <div class="dua">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa explicabo ad sed doloribus eaque officiis neque, distinctio architecto voluptates aut velit asperiores cumque! Sapiente nemo pariatur corrupti laudantium molestias odio vitae eligendi? Quas eveniet quidem sint quibusdam illo voluptates magnam assumenda nihil nesciunt provident, error eum perspiciatis facere? Sequi pariatur error amet, adipisci tempore incidunt fugiat veniam ratione beatae cupiditate suscipit temporibus quo quibusdam maiores? Sed eum magnam harum ratione quis nobis corrupti alias! Assumenda voluptas neque, qui fugiat expedita nam molestias consectetur numquam optio voluptatum iste. Eos neque vero distinctio ex, architecto facilis consequuntur aut quaerat eius. Optio, laudantium.</div>
+    <!-- Isi konten akan selalu mengikuti lebar tag pembungkusnya -->
+  </div>
+</body>
+</html>

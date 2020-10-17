@@ -1,0 +1,24 @@
+.navigation {
+  background-color: pink;
+}
+
+.main {
+  background-color: lightgreen;
+}
+
+.main span {
+  background-color: lightblue;
+}
+
+a {
+  display: inline-block;
+  background-color: orange;
+  width: 100px;
+
+  /* Jika dengan display: inline-block; maka atribut yang dasarnya inline akan bisa diatur tinggi dan lebarnya */
+  /* Sedangkan display: inline; tidak bisa mengatur lebar dan tinggi */
+}
+
+.navigation li {
+  display: inline;
+}
