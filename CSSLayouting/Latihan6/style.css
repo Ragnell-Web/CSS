@@ -1,0 +1,70 @@
+.container {
+  width: 600px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px;
+  overflow: auto;
+}
+
+
+/* Membuat text wrapping dengan float */
+img {
+  float: left;
+  margin: 5px;
+  width: 200px;
+}
+
+/* membuat image gallery */
+.container2 {
+  width: 600px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px;
+  overflow: auto;
+  margin-top: 5px;
+}
+
+.kotak {
+  width: 80px;
+  height: 80px;
+  background-color: salmon;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+  margin: 2px;
+  float: left;
+}
+
+/* Membuat multi colom layout */
+.container3 {
+  width: 800px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px;
+  overflow: auto;
+  margin-top: 5px;
+ 
+}
+
+.kiri{
+  width: 150px;
+  background-color: salmon;
+  height: 500px;
+  float: left;
+}
+
+.tengah{
+  width: 500px;
+  background-color: lightskyblue;
+  height: 500px;
+  float: left;
+}
+
+.kanan{
+  width: 150px;
+  background-color: limegreen;
+  height: 500px;
+  float: left;
+}
+
