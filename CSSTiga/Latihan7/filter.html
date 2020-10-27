@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filter</title>
+  <style>
+    body{
+      text-align: center;
+    }
+
+    /* Filter 
+        blur(px);
+        brightness(angka | %);
+        contrast(angka | %);
+        saturate(angka | %);
+        (semakin besar angkanya, warnanya akan semakin keluar,jika 0 akan abu abu)
+        grayscale(angka | %);
+        (Kebalikan dai saturate)
+        sepia(angka | %);
+        (Jika 100% akan menguningkan gambar)
+        hue-rotate(deg);
+        (roda warna)
+        invert(angka | %);
+        (seperti efek negative film)
+        opacity(angka | %);
+        drop-shadow(sama seperti box-shadow);
+
+        Bedanya filter menggunakan kemampuan hardware komputer masing-masing
+
+    */
+
+    img{
+      filter: drop-shadow(5px 5px 5px black);
+      /* Dengan menggunakan drop-shadow bisa digunakan di text dan box */
+    }
+  </style>
+</head>
+<body>
+  <img src="img/rizal.JPG" alt="Rizal Fauzi">
+</body>
+</html>

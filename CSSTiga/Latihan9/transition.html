@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Latihan Transisi</title>
+	<style>
+		.container{
+			width: 900px;
+			margin: 10px auto;
+			border: 5px solid #000;
+		}
+
+		.kotak{
+			height: 100px;
+			width: 100px;
+			background-color: darkkhaki;
+			margin: 10px;
+			text-align: center;
+			line-height: 100px;
+		}
+		.kotak1{
+			transition: 3s ease;
+		}
+		.kotak2{
+			transition: 3s ease-in;
+		}
+		.kotak3{
+			transition: 3s ease-out;
+		}
+		.kotak4{
+			-webkit-transition: all 3s ease-in-out;
+			   -moz-transition: all 3s ease-in-out;
+			    -ms-transition: all 3s ease-in-out;
+			     -o-transition: all 3s ease-in-out;
+			        transition: all 3s ease-in-out;
+		}
+		.kotak5{
+			-webkit-transition: all 3s linear;
+			   -moz-transition: all 3s linear;
+			    -ms-transition: all 3s linear;
+			     -o-transition: all 3s linear;
+			        transition: all 3s linear;
+		}
+		.container:hover .kotak{
+			margin-left: 800px;
+			transform: rotate(720deg);
+			background-color: darkcyan;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="kotak kotak1">ease</div>
+		<div class="kotak kotak2">ease-in</div>
+		<div class="kotak kotak3">ease-out</div>
+		<div class="kotak kotak4">ease-in-out</div>
+		<div class="kotak kotak5">linear</div>
+	</div>
+</body>
+</html>
