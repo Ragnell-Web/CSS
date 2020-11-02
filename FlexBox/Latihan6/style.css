@@ -1,0 +1,28 @@
+.container {
+  width: 600px;
+  height: 700px;
+  border: 5px solid #333;
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  /* align-content: flex-start; */
+  /* flex-start
+    flex-end
+    center
+    baseline: mensejajarkan isi konten
+    strecth: penuh jika tidak ada heigh */
+
+  /* Mengatur penempatan secara vertikal */
+
+
+}
+
+.container div {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(19, 133, 255);
+  margin: 2px;
+}
